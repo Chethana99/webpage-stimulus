@@ -10,21 +10,24 @@
 <body>
 
     <a href="#main-inventory" class="skip-link">Skip to Inventory</a>
+    <div id="main-inventory" tabindex="-1">                           <!--added id-->
+        Inventory content
+    </div>
 
     <header>
-        <div class="logo" onclick="location.reload()">VOGUE & VALOR</div>
+        <div class="logo" onclick="location.reload()" tabindex="0">VOGUE & VALOR</div>
         <div class="nav-links">
-            <div class="nav-item" onclick="openMod('cart')">Bag (0)</div>
-            <div class="nav-item" onclick="openMod('size')">Size Guide</div>
-            <div class="nav-item" onclick="openMod('auth')">Account</div>
+            <div class="nav-item" onclick="openMod('cart')" tabindex="0">Bag (0)</div>
+            <div class="nav-item" onclick="openMod('size')" tabindex="0">Size Guide</div>
+            <div class="nav-item" onclick="openMod('auth')" tabindex="0">Account</div>
         </div>
     </header>
 
     <section class="hero">
         <div>
-            <h3>The Equinox Collection</h3>
+            <h1>The Equinox Collection</h1>
             <p>Timeless silhouettes crafted from sustainably sourced Italian silk. Discover the intersection of comfort and high-fashion utility.</p>
-            <button class="btn-black" style="width: auto;" onclick="document.getElementById('catalog').scrollIntoView()">Shop Collection</button>
+            <button class="btn-black" style="width: auto;" onclick="document.getElementById('catalog').scrollIntoView()" tabindex="0">Shop Collection</button>
         </div>
     </section>
 
