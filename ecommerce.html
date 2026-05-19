@@ -79,17 +79,16 @@
 
     <div id="mod-cart" class="modal-overlay">
         <div class="modal-box">
-            <span class="close-trigger" onclick="cls()">✕</span>
+            <span class="close-trigger" onclick="cls()" tabindex="0">✕</span>
             <h3>Your Selection</h3>
             <div style="border-top: 1px solid #eee; padding: 20px 0;">
                 <p style="color: var(--muted);">Your bag is currently empty.</p>
                 <p>Express Checkout:</p>
-                <input type="text" placeholder="Gift Card or Promo Code">
+                <input type="text" placeholder="Gift Card or Promo Code" aria-label="cardpayment or promocode">    <!--Added aria-label-->
             </div>
-            <button class="btn-black" onclick="cls()">Proceed to Secure Pay</button>
+            <button class="btn-black" onclick="cls()" tabindex="0">Proceed to Secure Pay</button>
         </div>
     </div>
-
      <div id="mod-size" class="modal-overlay">
         <div class="modal-box">
             <span class="close-trigger" onclick="cls()" tabindex="0">✕</span>
