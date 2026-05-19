@@ -104,18 +104,18 @@
         </div>
     </div>
 
-    <div id="mod-auth" class="modal-overlay">
+     <div id="mod-auth" class="modal-overlay">
         <div class="modal-box">
-            <span class="close-trigger" onclick="cls()">✕</span>
+            <span class="close-trigger" onclick="cls()" tabindex="0">✕</span>
             <h3>Client Login</h3>
             <div style="margin-bottom: 1rem;">
-                <input type="checkbox" style="width: auto;">
+                <input type="checkbox" style="width: auto;" aria-label="tickbox">  <!--added aria-label-->
                 <span>Remember this device</span>
             </div>
             <p style="color: var(--accent); font-size: 0.8rem; text-align: center;">Identity Server Status: Ready</p>
             <button class="btn-black" onclick="cls()">Sign In</button>
         </div>
     </div>
-
+<script src="Script.js"></script>
 </body>
 </html>
