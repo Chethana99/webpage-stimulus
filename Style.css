@@ -38,8 +38,9 @@
         .footer h5 { color: #fff; margin-bottom: 20px; }
         
         
-        .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: none; align-items: center; justify-content: center; z-index: 100; }
+         .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: none; align-items: center; justify-content: center; z-index: 100; }
         .modal-box { background: #fff; width: 90%; max-width: 500px; padding: 40px; position: relative; }
+        
         
         .close-trigger { position: absolute; top: 20px; right: 20px; cursor: pointer; font-size: 1.2rem; }
 
